@@ -1,0 +1,9 @@
+.blogSwiperImg {
+  transition: all 1s ease-out;
+  overflow: hidden;
+}
+.blogSwiperImg:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in;
+  cursor: pointer;
+}

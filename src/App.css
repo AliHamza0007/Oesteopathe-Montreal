@@ -1,0 +1,88 @@
+.cy {
+  color: #ffb650 !important;
+}
+.bgy {
+  background-color: #ffb650 !important;
+}
+.bgyb {
+  background-color: #ebcda4 !important;
+}
+.bullet {
+  font-size: 12px;
+}
+.cg {
+  color: #003c38 !important;
+}
+/* price page css */
+.btnContact {
+  padding: 10px 30px;
+}
+.btnContact:hover {
+  background: white !important;
+
+  color: #ffb650 !important;
+
+  border: 1px solid #ffb650 !important;
+}
+.price {
+  font-family: Railway;
+}
+
+.cardPrice {
+  border: 0 !important;
+  transition: all 0.5s ease-out;
+}
+.cardPrice:hover {
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 18px rgba(232, 232, 232, 0.75);
+  -webkit-box-shadow: 0px 0px 3px 18px rgba(232, 232, 232, 0.75);
+  -moz-box-shadow: 0px 0px 3px 18px rgba(232, 232, 232, 0.75);
+}
+.lastCard {
+  opacity: 0;
+}
+@font-face {
+  font-family: Railway;
+  src: url("./assets/font/Raleway/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: PT_Serif;
+  src: url("./assets/font/PT Serif/PTSerifCaption-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  src: url("./assets/font/Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: Quicksand;
+  src: url("./assets/font/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+.Inter {
+  font-family: Inter !important;
+}
+.Quicksand {
+  font-family: Quicksand !important;
+}
+.fa {
+  cursor: pointer;
+}
+.bg-light {
+  background-color: rgb(236, 228, 228) !important;
+}
+
+.contactUs {
+  color: white;
+
+  background-color: #ffb650;
+
+  position: fixed;
+  z-index: 15;
+  bottom: 5%;
+  left: 2%;
+}
+.contactUs:hover {
+  border: solid #ffb650 !important;
+
+  background-color: white;
+}

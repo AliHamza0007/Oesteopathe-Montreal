@@ -1,0 +1,125 @@
+.imgHome {
+  width: 100%;
+  height: 650px;
+  filter: brightness(50%);
+}
+.contentHome {
+  font-family: Railway;
+  position: absolute;
+  top: 5%;
+}
+
+.cardHomecy {
+  font-family: "Railway" !important;
+
+  font-weight: 700;
+  font-size: 4rem;
+}
+.cardHome {
+  position: absolute;
+  left: 50%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+}
+.bgTB {
+  background: linear-gradient(to bottom, white 20%, rgb(242 245 245) 80%);
+}
+.nav > .nav-item > .nav-link.active {
+  background-color: #ffb650 !important;
+  color: #003c38 !important;
+}
+.fontbold {
+  font-weight: 800;
+}
+.userImg {
+  height: 60px;
+}
+.w15 {
+  width: 15%;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  background-color: #003c38 !important;
+  cursor: pointer;
+  transition: 1s;
+}
+.imgArticle {
+  transition: all 1s ease-out;
+  overflow: hidden;
+  transform: scale(1.5);
+}
+.imgArticle:hover {
+  transform: scale(2);
+  transition: all 1s ease-in;
+  cursor: pointer;
+}
+.h-30 {
+  height: 300px !important;
+}
+
+.artLink {
+  color: #ffb650 !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+.artText:hover {
+  cursor: pointer;
+
+  color: #ffb650 !important;
+}
+.artLink:hover {
+  color: black !important;
+}
+.bgPractitioners {
+  background-color: #003c38 !important;
+  color: white !important;
+}
+
+.c2 {
+  height: 180px;
+}
+.homeBG2 {
+  filter: brightness(50%);
+}
+.contentHome2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+  .cardHome {
+    top: 22%;
+  }
+  .card-text {
+    height: auto;
+  }
+  .cardHomecy {
+    font-family: "Railway" !important;
+    font-weight: 700;
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .imgHome {
+    transform: scale(1.8);
+    padding-top: 58px;
+    height: 500px;
+  }
+  .borderNone {
+    border: none !important;
+  }
+  .cardHome {
+    top: 14%;
+  }
+  .homeBG2 {
+    height: 600px !important;
+  }
+  .contentHome {
+    position: absolute;
+    top: 3%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,42 @@
+.bgg {
+  background-color: #003c38 !important;
+}
+.cg {
+  color: #003c38 !important;
+}
+
+.ql,
+.qr {
+  position: absolute;
+  width: 40px;
+}
+.ql {
+  left: 20px;
+}
+.qr {
+  right: 20px;
+}
+.imgAbout {
+  width: 60%;
+}
+.dropdownCol > .dropdown {
+  background-color: #1a504c;
+}
+.dropdown-menu {
+  background-color: #1a504c;
+  position: static !important;
+  border: 0 !important;
+  transform: none !important;
+  color: white;
+}
+.dropdownButton.show {
+  color: #ffb650 !important;
+}
+.dropdownButton.show > .angle {
+  transform: rotate(180deg);
+  transition: all 1s ease !important;
+}
+.drdopt {
+  padding: 33px 30px;
+  border-radius: 5px;
+}

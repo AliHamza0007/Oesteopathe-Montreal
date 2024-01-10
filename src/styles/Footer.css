@@ -1,0 +1,32 @@
+.footer.nav-link:active {
+  color: black;
+}
+.footerFacebook {
+  background-color: #ffb650;
+
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 5px !important;
+  color: white;
+}
+.footerFacebookDiv {
+  border: 1px solid #ffb650;
+  display: inline;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 15px !important;
+}
+
+.footerFacebookDiv:hover {
+  border: 1px solid black;
+}
+.footerFacebookDiv:hover .footerFacebook {
+  background: #000;
+  color: white;
+}
+.footerHover:hover {
+  color: #ffb650 !important;
+  cursor: pointer;
+}

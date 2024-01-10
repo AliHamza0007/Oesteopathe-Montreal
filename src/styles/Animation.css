@@ -1,0 +1,67 @@
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.zoom {
+  animation: zoom 1.5s ease;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes fadeRight {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity {
+  animation: opacity 1.5s ease;
+}
+@media screen and (min-width: 768px) {
+  .appointment1 {
+    overflow-x: hidden !important;
+  }
+  .appointment1 .fadeLeft {
+    position: absolute;
+    width: 100%;
+    animation-name: fadeLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+  }
+  .appointment1 .fadeRight {
+    position: absolute;
+    width: 100%;
+    animation-name: fadeRight;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+  }
+}

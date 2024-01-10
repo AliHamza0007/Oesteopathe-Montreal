@@ -1,0 +1,70 @@
+.imgBrand {
+  height: 200px;
+  width: 350px;
+  border: 2px solid rgb(125, 125, 161);
+  border-left: 0;
+  border-right: 0;
+}
+.imgBrandDiv {
+  position: absolute;
+  z-index: 1;
+  bottom: -30px;
+  left: 20px;
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #a0a0a0;
+}
+.imgAppointmet {
+  height: 400px;
+}
+.appointment1 {
+  border-bottom-right-radius: 40px;
+  box-shadow: 2px 2px 5px #a0a0a0;
+}
+.mapLink {
+  background: #f60;
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+.form-check-input:checked[type="checkbox"] {
+  background-color: #f60 !important;
+  border-color: #f60 !important;
+  cursor: pointer;
+}
+.form-check-label:hover {
+  cursor: pointer;
+}
+.form-check-input:checked[type="radio"] {
+  background-color: #f60 !important;
+  border-color: #f60 !important;
+  cursor: pointer;
+}
+.cyd {
+  color: #f60 !important;
+}
+.locationLink {
+  border: 2px solid rgb(204, 204, 241);
+  border-left: 0;
+  color: rgb(49, 47, 47);
+  border-right: 0;
+}
+.locationLink:hover {
+  background: rgb(91, 91, 252);
+  cursor: pointer;
+  color: white !important;
+}
+.ul:hover {
+  text-decoration: underline;
+}
+.professionalImg {
+  height: 150px;
+}
+@media screen and (max-width: 425px) {
+  .imgBrandDiv {
+    left: 0;
+    margin: 10px;
+  }
+}

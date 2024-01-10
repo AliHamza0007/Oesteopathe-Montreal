@@ -1,0 +1,105 @@
+.nbt {
+  font-size: 2em;
+  line-height: 30px;
+  display: block;
+  font-family: PT_Serif;
+}
+.nbd {
+  font-size: 18px !important;
+  font-weight: 500;
+  font-family: Inter;
+
+  line-height: 1.2em;
+}
+.navbar-brand {
+  color: #ffb650 !important;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: rgb(102, 101, 101);
+  z-index: 1;
+}
+
+.btnNav {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  color: white !important;
+  background-color: #ffb650 !important;
+  transition: all 0.5s ease-out;
+}
+.btnNav:hover {
+  background-color: white !important;
+  color: #ffb650 !important;
+  transition: all 0.5s ease-out;
+}
+.btnNav.active {
+  background-color: white !important;
+  color: #ffb650 !important;
+  transition: all 0.5s ease-out;
+}
+
+.nav-link {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.menu {
+  filter: invert();
+}
+.nav-link:hover {
+  transition: all 0.5s ease;
+
+  color: #fcae41 !important;
+}
+.nav-link.active {
+  color: #ffb650 !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .nav-link {
+  font-size: 1em;
+}
+
+.bgNav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #003c38 !important;
+  color: white !important;
+}
+.bgNav .nav-link {
+  color: white;
+}
+.navbar-toggler-icon {
+  color: white !important;
+  background-image: none !important;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+button[aria-expanded="true"] .fa-bars {
+  display: none;
+  transition: 1s;
+}
+button[aria-expanded="false"] .fa-times {
+  display: none;
+  transition: 1s;
+}

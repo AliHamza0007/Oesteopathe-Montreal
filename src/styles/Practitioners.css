@@ -1,0 +1,48 @@
+.Michael {
+  height: 300px;
+}
+.christelle {
+  height: 180px;
+}
+.playDiv {
+  background: white;
+  display: inline;
+  position: absolute;
+  bottom: 10%;
+  padding: 20px 30px;
+
+  right: 0;
+  z-index: 5 !important;
+}
+.fa-play {
+  border: 2px solid #ffb650;
+  padding: 15px;
+  border-radius: 50%;
+  transition: all 0.4s ease-out;
+}
+.iconPLay {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.fa-play:hover {
+  color: #ffb650;
+  padding: 18px;
+  border: 2px solid #ffb650;
+
+  transition: all 0.4s ease-in;
+}
+.email:hover {
+  color: #ffb650;
+  cursor: pointer;
+}
+@media screen and (max-width: 425px) {
+  .playDiv {
+    bottom: 0;
+  }
+}
