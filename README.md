@@ -1,76 +1,52 @@
-
 # Osteopathe Montreal React Website
 
 This project is a React.js implementation of the Osteopathe Montreal template. The website showcases the services and information related to Osteopathe Montreal.
 
-## Live Demo
+## Demo
 
-Explore the live demo of the Osteopathe Montreal React website: [Osteopathe Montreal React Demo](https://osteopathe-montreal.onrender.com)
+## [![Live](https://img.shields.io/badge/Live-Link-blue?style=for-the-badge&logo=netlify)](https://osteopathe-montreal.onrender.com/)
 
-## Features
+---# Tech Stack
 
-- **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience across various devices.
+- ![React](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react&logoColor=white): Frontend library for building user interfaces.
+- ![React DOM](https://img.shields.io/badge/React_DOM-blue?style=for-the-badge&logo=react&logoColor=white): React rendering library for web applications.
+- ![React Icons](https://img.shields.io/badge/React_Icons-blueviolet?style=for-the-badge&logo=react&logoColor=white): Icon library for React applications.
+- ![React Router DOM](https://img.shields.io/badge/React_Router_DOM-brown?style=for-the-badge&logo=react&logoColor=white): Declarative routing for React applications.
+- ![React Animate on Scroll](https://img.shields.io/badge/React_Animate_on_Scroll-lightgrey?style=for-the-badge): Animations on scroll library for React.
+- ![React Reveal](https://img.shields.io/badge/React_Reveal-lightblue?style=for-the-badge&logo=react&logoColor=white): Animated reveal effects library for React.
+- ![React Multistep](https://img.shields.io/badge/React_Multistep-green?style=for-the-badge&logo=react&logoColor=white): Component for building multi-step forms in React.
+- ![React Scroll](https://img.shields.io/badge/React_Scroll-green?style=for-the-badge&logo=react&logoColor=white): Scroll component library for React.
+- ![React Scroll to Top](https://img.shields.io/badge/React_Scroll_to_Top-green?style=for-the-badge&logo=react&logoColor=white): Scroll to top button component for React.
+- ![React Simple Typewriter](https://img.shields.io/badge/React_Simple_Typewriter-red?style=for-the-badge): Typewriter effect component for React.
+- ![Swiper](https://img.shields.io/badge/Swiper-green?style=for-the-badge&logo=swiper&logoColor=white): Modern touch slider library for React.
 
-- **React Components:** Utilizes React components for a modular and maintainable codebase.
+**Project Images**
 
-- **Styling:** Incorporates styling, possibly with CSS or a styling library, to enhance the visual appeal.
+<div class="d-flex">
 
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YourUsername/osteopathe-montreal-react.git
-   cd osteopathe-montreal-react
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-4. Open your browser and visit [http://localhost:3000](http://localhost:3000).
-
-## Folder Structure
-
-```
-src/
-|-- components/
-|   |-- Header.js
-|   |-- Footer.js
-|   |-- ...
-|-- pages/
-|   |-- Home.js
-|   |-- About.js
-|   |-- Services.js
-|   |-- Contact.js
-|-- styles/
-|   |-- main.css
-|   |-- ...
-|-- App.js
-|-- index.js
-```
-
-Customize the folder structure and codebase based on the specific requirements and structure of the Osteopathe Montreal website.
-
-## Customization
-
-This project serves as a starting point. Customize the components, styles, and pages as necessary to match the original website.
+<img src="./ShowCase/1.png"  width="30%" height="350px"  />
+<img src="./ShowCase/2.png"  width="30%" height="350px"  />
+<img src="./ShowCase/3.png"  width="30%" height="350px"  />
+<img src="./ShowCase/4.png"  width="30%" height="350px"  />
+<img src="./ShowCase/5.png"  width="30%" height="350px"  />
+<img src="./ShowCase/6.png"  width="30%" height="350px"  />
+<img src="./ShowCase/7.png"  width="30%" height="350px"  />
+<img src="./ShowCase/8.png"  width="30%" height="350px"  />
+<img src="./ShowCase/9.png"  width="30%" height="350px"  />
+<img src="./ShowCase/10.png"  width="30%" height="350px"  />
+<img src="./ShowCase/11.png"  width="30%" height="350px"  />
+<img src="./ShowCase/12.png"  width="30%" height="350px"  />
+<img src="./ShowCase/13.png"  width="30%" height="350px"  />
+</div>
 
 ## Contributing
 
-If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Contributions are welcome!
+Contributions are welcome! If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the [MIT License](LICENSE).
 
-Make sure to replace placeholders like `YourUsername`, `osteopathe-montreal-react`, and customize other details based on your actual project. If there are additional features or aspects you'd like to highlight, feel free to add or modify the content accordingly.
+---
+
+## Feel free to customize the content according to your specific project details and requirements.
